@@ -24,4 +24,4 @@ function getData(dataAttribute) {
 function findDayTime(conditionsString){
     const dayAndTimeRegex = /(4|5|6)*\/(8|10|12)/;
     return conditionsString.match(dayAndTimeRegex);
-}
+}    
